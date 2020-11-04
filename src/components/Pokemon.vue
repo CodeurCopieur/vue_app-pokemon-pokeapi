@@ -16,7 +16,7 @@ import PokemonDetail from './PokemonDetail'
  export default {
    data() {
      return {
-       imageUrl: 'https://pokeres.bastionbot.org/images/pokemon/1.png',
+       imageUrl: 'https://pokeres.bastionbot.org/images/pokemon/',
         apiUrl: 'https://pokeapi.co/api/v2/pokemon/'
      }
    },
