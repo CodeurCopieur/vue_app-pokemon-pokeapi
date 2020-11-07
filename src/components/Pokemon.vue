@@ -2,7 +2,7 @@
  <div class="container">
    <h1 class="title has-text-centered block">Pokemon's</h1>
 
-   <PokemonSearch></PokemonSearch>
+   <PokemonSearch :apiUrl="apiUrl" @setPokemonUrl="setPokemonUrl"></PokemonSearch>
    <PokemonList :imageUrl="imageUrl" :apiUrl="apiUrl" @setPokemonUrl="setPokemonUrl"></PokemonList>
    <PokemonDetail v-if="showDetail" :pokemonUrl="pokemonUrl" :imageUrl="imageUrl" @closeDetail="closeDetail"></PokemonDetail>
  </div>
